@@ -1,0 +1,67 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+env/
+
+# Environment files
+.env
+.env.local
+.env.production
+.env.development
+
+# Build outputs
+dist/
+build/
+*.tgz
+*.tar.gz
+
+# Temp files
+*.tmp
+/tmp/
+uploads/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Runtime
+.pids
+.pid
+.seed
+*.pid.lock
+
+# Coverage
+coverage/
+.nyc_output/
+
+# Docker
+.docker/
+
+# Audio files (for development)
+*.mp3
+*.wav
+*.ogg
+*.m4a
+*.flac
+*.mp4
+
+# Python specific
+*.egg-info/
+.pytest_cache/

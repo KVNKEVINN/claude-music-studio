@@ -1,0 +1,36 @@
+version: '3.8'
+
+services:
+  audio-api:
+    build: ./backend
+    container_name: claude-music-audio-api
+    restart: unless-stopped
+    ports:
+      - "5050:5000"
+    volumes:
+      - audio-temp:/tmp/claude-music-studio
+    environment:
+      - FLASK_ENV=production
+      - MAX_DURATION=600
+      - MAX_FILE_SIZE=52428800
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:5000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  frontend:
+    build: 
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: claude-music-frontend
+    restart: unless-stopped
+    ports:
+      - "3000:80"
+    environment:
+      - VITE_API_URL=http://localhost:5050
+    depends_on:
+      - audio-api
+
+volumes:
+  audio-temp:
